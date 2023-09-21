@@ -1,0 +1,14 @@
+specVersion: 0.35.0
+name: hello-node
+runtime: node
+registry: ""
+image: ""
+created: 2023-09-21T16:32:28.804517+05:30
+build:
+  git:
+    url: https://github.com/lokanandaprabhu/test-kn-func
+    revision: main
+  buildpacks: []
+  builder: ""
+  buildEnvs: []
+  pvcSize: 256Mi
